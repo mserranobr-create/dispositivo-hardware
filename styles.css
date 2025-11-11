@@ -83,6 +83,14 @@ ul, ol {
   color: #555;
   margin-top: 0.4rem;
 }
+.predecesores-lista img {
+  width: 280px;          
+  height: 180px;           
+  object-fit: cover;        
+  border-radius: 10px;      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
 .nota {
   font-size: 0.85rem;
