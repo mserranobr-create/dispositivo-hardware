@@ -1,0 +1,108 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #585659; 
+  color: #333;
+  line-height: 1.6;
+}
+
+.encabezado {
+  background-color: #333333; 
+  color: #ffffff; 
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.encabezado h1 {
+  margin: 0.5rem 0;
+  font-size: 2.5rem;
+}
+
+.encabezado .subtitle {
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+.menu {
+  margin-top: 1.5rem;
+}
+
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333333;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+ul, ol {
+  margin-left: 1.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery figure {
+  max-width: 400px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.gallery figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+.nota {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #333333; 
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+a {
+  color: #0056b3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
